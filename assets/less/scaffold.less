@@ -1,0 +1,23 @@
+body {
+	height: 100vh;
+	.site {
+		height: 100%;
+		.main {
+			height: inherit;
+		}
+	}
+}
+
+.fd-down {
+	position: absolute;
+	bottom: 1rem;
+}
+
+@media (max-width: 767px) {
+	body {
+		height: auto;
+	}
+	.fd-down {
+		position: static;
+	}
+}

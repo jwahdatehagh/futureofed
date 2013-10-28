@@ -1,0 +1,31 @@
+---
+layout: default
+title: Future Of Education
+---
+
+
+<div class="pure-g-r">
+  <div class="latest pure-u-1-2">
+    <h1>Latest</h1>
+    <ul class="posts">
+      {% for post in site.posts %}
+          {% if post.categories contains 'linkpost' %}
+              <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.refurl }}" target="_blank">{{ post.title }}</a></li>
+          {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="deep-dives pure-u-1-2">
+    <h1>Deep Dives</h1>
+    <ul class="posts">
+      {% for post in site.posts %}
+          {% unless post.categories contains 'linkpost' %}
+              <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endunless %}
+      {% endfor %}
+    </ul>
+  </div>
+  
+</div>
+
