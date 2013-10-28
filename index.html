@@ -18,8 +18,8 @@ title: Future Of Education
                     {{ post.subtitle }}
                   </a> 
                   <p class="meta">
-                    <span>{{ post.source }}</span>
-                    <span>{{ post.date | date_to_string }}</span>
+                    <span><a href="{{ post.refurl }}" target="_blank">{{ post.source }}</a></span>
+                    <!--span class="date">{{ post.date | date_to_string }}</span-->
                   </p>
                 </li>
             {% endif %}
@@ -34,7 +34,12 @@ title: Future Of Education
       <ul class="posts">
         {% for post in site.posts %}
             {% unless post.categories contains 'linkpost' %}
-                <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+                <li>
+                  <a href="{{ post.url }}" target="_blank">
+                    <p class="title">{{ post.title }}</p>
+                    <p>{{ post.subtitle }}</p>
+                  </a> 
+                </li>
             {% endunless %}
         {% endfor %}
       </ul>

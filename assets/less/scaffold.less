@@ -17,14 +17,18 @@ body {
 		.content {
 			height: 100vh;
 			padding-left: 15.3rem;
+
+			.pure-u-1-2 {
+				height: 100vh;
+			}
 		}
 		.latest {
-			height: 100vh;
+			height: 100%;
 			padding: 2rem;
 			background-color: @fd-blue;
 		}
 		.deep-dives {
-			height: 100vh;
+			height: 100%;
 			padding: 2rem;
 			background-color: @fd-green;
 		}
@@ -51,6 +55,9 @@ body {
 		.site {
 			height: auto;
 			.main, .content, .latest, .deep-dives {
+				height: auto;
+			}
+			.content .pure-u-1-2 {
 				height: auto;
 			}
 		}

@@ -25,21 +25,36 @@ ul.posts {
 	font-weight: 400;
 	font-size: @fd-font-normal;
 
+	li {
+		margin-bottom: 2.250rem;
+	}
+
 	a {
 		text-decoration: none;
 		color: inherit;
 
-		span.title {
+		span.title, p.title {
 			font-weight: 700;
 			font-size: @fd-font-head;
+		}
+		p {
+			margin: 0;
+			&.title {
+				color: white;
+			}
 		}
 	}
 
 	p.meta {
 		color: white;
 		font-size: @fd-font-small;
+		margin: .4rem 0;
 
-		span:last-child {
+		a:visited {
+			color: @fd-grey;
+		}
+
+		span.date {
 			float: right;
 			color: @fd-grey;
 		}
