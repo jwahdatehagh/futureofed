@@ -1,3 +1,6 @@
+html {
+	font-size: 16px; //base font size
+}
 body {
 	font-family: @fd-font;
 	height: 100vh;
@@ -5,8 +8,10 @@ body {
 	.site {
 		height: 100vh;
 		.main {
+			width: 11.3rem;
 			height: 100vh;
 			position: fixed;
+			padding: 2rem;
 			background-color: @fd-red;
 		}
 		.content {
@@ -15,18 +20,30 @@ body {
 		}
 		.latest {
 			height: 100vh;
+			padding: 2rem;
 			background-color: @fd-blue;
 		}
 		.deep-dives {
 			height: 100vh;
+			padding: 2rem;
 			background-color: @fd-green;
 		}
 	}
 }
-.fd-down {
-	position: absolute;
-	bottom: 1rem;
+
+@media (max-width: 1024px) {
+	body .site {
+		.main {
+			position: static;
+			width: auto;
+			height: auto;
+		}
+		.content {
+			padding-left: 0;
+		}
+	}
 }
+
 
 @media (max-width: 767px) {
 	body {
@@ -38,8 +55,5 @@ body {
 			}
 		}
 		 
-	}
-	.fd-down {
-		position: static;
 	}
 }

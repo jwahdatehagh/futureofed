@@ -5,26 +5,40 @@ title: Future Of Education
 
 
 <div class="content pure-g-r">
-  <div class="latest pure-u-1-2">
-    <h1>Latest</h1>
-    <ul class="posts">
-      {% for post in site.posts %}
-          {% if post.categories contains 'linkpost' %}
-              <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.refurl }}" target="_blank">{{ post.title }}</a></li>
-          {% endif %}
-      {% endfor %}
-    </ul>
+  
+  <div class="pure-u-1-2">
+    <div class="latest">
+      <h1 class="title">latest</h1>
+      <ul class="linkposts">
+        {% for post in site.posts %}
+            {% if post.categories contains 'linkpost' %}
+                <li>
+                  <a href="{{ post.refurl }}" target="_blank">
+                    <span class="title">{{ post.title }}</span> - 
+                    {{ post.subtitle }}
+                  </a> 
+                  <p class="meta">
+                    <span>{{ post.source }}</span>
+                    <span>{{ post.date | date_to_string }}</span>
+                  </p>
+                </li>
+            {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 
-  <div class="deep-dives pure-u-1-2">
-    <h1>Deep Dives</h1>
-    <ul class="posts">
-      {% for post in site.posts %}
-          {% unless post.categories contains 'linkpost' %}
-              <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-          {% endunless %}
-      {% endfor %}
-    </ul>
+  <div class="pure-u-1-2">
+    <div class="deep-dives">
+      <h1 class="title">deep dives</h1>
+      <ul class="posts">
+        {% for post in site.posts %}
+            {% unless post.categories contains 'linkpost' %}
+                <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endunless %}
+        {% endfor %}
+      </ul>
+    </div>
   </div>
   
 </div>
