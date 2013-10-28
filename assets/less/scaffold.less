@@ -1,13 +1,28 @@
 body {
+	font-family: @fd-font;
 	height: 100vh;
+	background-color: @fd-green;
 	.site {
-		height: 100%;
+		height: 100vh;
 		.main {
-			height: inherit;
+			height: 100vh;
+			position: fixed;
+			background-color: @fd-red;
+		}
+		.content {
+			height: 100vh;
+			padding-left: 15.3rem;
+		}
+		.latest {
+			height: 100vh;
+			background-color: @fd-blue;
+		}
+		.deep-dives {
+			height: 100vh;
+			background-color: @fd-green;
 		}
 	}
 }
-
 .fd-down {
 	position: absolute;
 	bottom: 1rem;
@@ -16,6 +31,13 @@ body {
 @media (max-width: 767px) {
 	body {
 		height: auto;
+		.site {
+			height: auto;
+			.main, .content, .latest, .deep-dives {
+				height: auto;
+			}
+		}
+		 
 	}
 	.fd-down {
 		position: static;
