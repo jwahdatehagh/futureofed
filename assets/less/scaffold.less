@@ -1,35 +1,47 @@
 html {
 	font-size: 16px; //base font size
+	height: 100%;
 }
 body {
 	font-family: @fd-font;
-	height: 100vh;
-	background-color: @fd-green;
+	height: 100%;
+	background-color: @fd-red;
+	
+	.sectionwrapper {
+		padding: 2rem;
+	}
+
 	.site {
-		height: 100vh;
+		height: 100%;
 		.main {
+			height: 100%;
 			width: 11.3rem;
-			height: 100vh;
-			position: fixed;
 			padding: 2rem;
+			position: fixed;
 			background-color: @fd-red;
 		}
 		.content {
-			height: 100vh;
-			padding-left: 15.3rem;
+			height: 100%;
 
-			.pure-u-1-2 {
-				height: 100vh;
+			padding-left: 15.3rem;
+			display: table;
+			.cell {
+				display: table-cell;
+				height: 100%;
+				&:first-child {
+					background-color: @fd-blue;
+				}
+				&:last-child {
+					background-color: @fd-green;
+				}
 			}
 		}
 		.latest {
 			height: 100%;
-			padding: 2rem;
 			background-color: @fd-blue;
 		}
 		.deep-dives {
 			height: 100%;
-			padding: 2rem;
 			background-color: @fd-green;
 		}
 	}
@@ -44,6 +56,13 @@ body {
 		}
 		.content {
 			padding-left: 0;
+			height: auto;
+			min-height: 70%;
+			
+		}
+		.footer {
+			height: 4rem;
+			background-color: @fd-red;
 		}
 	}
 }
@@ -56,6 +75,12 @@ body {
 			height: auto;
 			.main, .content, .latest, .deep-dives {
 				height: auto;
+			}
+			.content {
+				display: inline;
+				.cell {
+					display: inline;
+				}
 			}
 			.content .pure-u-1-2 {
 				height: auto;
