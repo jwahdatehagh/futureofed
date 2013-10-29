@@ -58,7 +58,9 @@ ul.posts {
 		}
 		
 		span.date {
-			float: right;
+			&:before {
+				content: " — "
+			}
 			color: @fd-grey;
 		}
 	}

@@ -1,0 +1,23 @@
+---
+layout: default
+title: Future Of Education
+---
+
+    <div class="latest single expandheight bg-green">
+      <div class="sectionwrapper">
+        <h1 class="title">deep dives</h1>
+          <ul class="posts">
+          {% for post in site.posts %}
+              {% unless post.categories contains 'linkpost' %}
+                  <li>
+                    <a href="{{ post.url }}" target="_blank">
+                      <p class="title">{{ post.title }}</p>
+                      <p>{{ post.subtitle }}</p>
+                    </a> 
+                  </li>
+              {% endunless %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
