@@ -1,3 +1,6 @@
 name: Future Of Education
 markdown: redcarpet
 pygments: true
+paginate: 3
+paginate_path: "archive/page:num"
+paginate_file: latest-2.html

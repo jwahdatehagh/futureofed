@@ -4,7 +4,7 @@ title:  "Welcome to Jekyll!"
 subtitle:  "Welcome to Jekyll! This is supercool!!! The code is open source..."
 date:   2013-10-28 02:38:02
 permalink: /testestest.html
-categories: deep dive
+categories: deepdive
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

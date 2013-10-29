@@ -3,7 +3,7 @@ layout: post
 title:  "Hallo Welt!"
 subtitle:  "Hallo Weltchen!"
 date:   2013-09-28 02:38:02
-categories: update
+categories: deepdive
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
