@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Sebastian Thrun"
+subtitle:  "the future is near. And why this world is beautiful…"
+date:   2013-10-28 02:38:02
+refurl: http://www.github.com
+source: github.com
+categories: deep dives, linkpost
+
+---
