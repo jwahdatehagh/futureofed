@@ -1,91 +1,32 @@
-html {
-	font-size: 16px; //base font size
-	height: 100%;
-}
 body {
-	font-family: @fd-font;
-	height: 100%;
 	background-color: @fd-red;
-	
-	.sectionwrapper {
-		padding: 2rem;
-	}
+}
 
-	.site {
+.main {
+	background-color: @fd-red;
+	width: 100%;
+	height: auto;
+}
+.sectionwrapper {
+	padding: 2rem;
+}
+
+
+.bg-blue { background-color: @fd-blue; }
+.bg-green { background-color: @fd-green; }
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1050px) {
+	html, body, .expandheight {
 		height: 100%;
-		.main {
-			height: 100%;
-			width: 11.3rem;
-			padding: 2rem;
-			position: fixed;
-			background-color: @fd-red;
-		}
-		.content {
-			height: 100%;
-
-			padding-left: 15.3rem;
-			display: table;
-			.cell {
-				display: table-cell;
-				height: 100%;
-				&:first-child {
-					background-color: @fd-blue;
-				}
-				&:last-child {
-					background-color: @fd-green;
-				}
-			}
-		}
-		.latest {
-			height: 100%;
-			background-color: @fd-blue;
-		}
-		.deep-dives {
-			height: 100%;
-			background-color: @fd-green;
-		}
 	}
-}
-
-@media (max-width: 1024px) {
-	body .site {
-		.main {
-			position: static;
-			width: auto;
-			height: auto;
-		}
-		.content {
-			padding-left: 0;
-			height: auto;
-			min-height: 70%;
-			
-		}
-		.footer {
-			height: 4rem;
-			background-color: @fd-red;
-		}
+	.main {
+		width: 15.3rem;
+		position: fixed;
 	}
-}
-
-
-@media (max-width: 767px) {
-	body {
-		height: auto;
-		.site {
-			height: auto;
-			.main, .content, .latest, .deep-dives {
-				height: auto;
-			}
-			.content {
-				display: inline;
-				.cell {
-					display: inline;
-				}
-			}
-			.content .pure-u-1-2 {
-				height: auto;
-			}
-		}
-		 
+	.content {
+		padding-left: 15.3rem;
 	}
 }

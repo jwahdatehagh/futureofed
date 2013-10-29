@@ -14,7 +14,7 @@ h1.title {
 
 	&.sitetitle {
 		font-size: @fd-font-sitetitle;
-		word-spacing: 11.3rem;
+		word-spacing: 25rem;
 	}
 }
 
@@ -27,6 +27,7 @@ ul.posts {
 	font-size: @fd-font-normal;
 
 	li {
+		min-height: 5rem;
 		margin-bottom: 2.250rem;
 	}
 
@@ -71,8 +72,9 @@ ul.posts {
 
 
 
-@media (max-width: 1024px) {
+@media (min-width: 500px) and (max-width: 1050px) {
 	h1.title.sitetitle {
 		word-spacing: normal;
 	}
 }
+
