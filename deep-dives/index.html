@@ -7,7 +7,7 @@ title: Future Of Education
       <div class="sectionwrapper">
         <h1 class="title">deep dives</h1>
           <ul class="posts">
-          {% for post in site.posts %}
+          {% for post in site.posts limit:50 %}
               {% unless post.categories contains 'linkpost' %}
                   <li>
                     <a href="{{ post.url }}" target="_blank">
@@ -18,6 +18,7 @@ title: Future Of Education
               {% endunless %}
           {% endfor %}
         </ul>
+        <a href="/archive/">even more - browse the archives</a>
       </div>
     </div>
 
