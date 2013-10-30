@@ -38,5 +38,29 @@
         </div>
       </div>
 
+
+    <script>
+        DateString = function () {
+            var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+            var todayTimeStamp = new Date();
+            var oneDayTimeStamp = 1000 * 60 * 60 * 24; // Milliseconds in a day
+            var today = todayTimeStamp.getDate() + ' ' + months[todayTimeStamp.getMonth()];
+            var diffOne = todayTimeStamp - oneDayTimeStamp;
+            var yesterdayTimeStamp = new Date(diffOne);
+            var yesterday = yesterdayTimeStamp.getDate() + ' ' + months[yesterdayTimeStamp.getMonth()];
+            var dateElms = document.getElementsByClassName('date'); //gets the Date Element on the Page
+
+            for (var i = 0; i < dateElms.length; ++i) {
+                if (dateElms[i].innerHTML == today) {
+                    var item = dateElms[i];  
+                    item.innerHTML = 'today';
+                } else if (dateElms[i].innerHTML == yesterday) {
+                    var item = dateElms[i];  
+                    item.innerHTML = 'yesterday';
+                }
+            }
+        }
+        DateString();
+    </script>
     </body>
 </html>

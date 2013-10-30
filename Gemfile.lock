@@ -1,0 +1,9 @@
+GEM
+  specs:
+    jekyll-timeago (0.4.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  jekyll-timeago
