@@ -44,7 +44,7 @@ title: Future Of Education
           {% for post in site.posts %}
               {% unless post.categories contains 'linkpost' limit:5 %}
                   <li>
-                    <a href="{{ post.url }}" target="_blank">
+                    <a href="{{ post.url }}">
                       <p class="title">{{ post.title }}</p>
                       <p>{{ post.subtitle }}</p>
                     </a> 
