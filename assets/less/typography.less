@@ -1,3 +1,4 @@
+a.title { text-decoration: none; }
 h1.title {
 	width: 100%;
 	color: white;
@@ -73,15 +74,148 @@ ul.posts {
 
 }
 
+.linkposts,
+.posts {
+	list-style: none;
+	padding: 3rem 0 0 0;
+	color: @fd-grey;
+	font-weight: 400;
+	font-size: @fd-font-normal;
+
+	article {
+		min-height: 5rem;
+		margin-bottom: 2.250rem;
+	}
+
+	a {
+		text-decoration: none;
+		color: inherit;
+
+		span.title, p.title {
+			font-weight: 700;
+			font-size: @fd-font-head;
+		}
+		p {
+			margin: 0;
+			&.title {
+				color: white;
+			}
+		}
+	}
+
+	p.meta {
+		color: white;
+		font-size: @fd-font-small;
+		margin: .4rem 0;
+
+		a:visited {
+			color: @fd-grey;
+			
+		}
+		
+		span.date {
+			&:before {
+				content: " — "
+			}
+			color: @fd-grey;
+		}
+	}
+}
+
+.linkposts {
+}
+
+.posts {
+
+}
+
+nav.center {
+	text-align: center;
+	margin: 3.5rem 0;
+	padding-top: .5rem;
+}
+a.more {
+	color: white;
+	font-size: @fd-font-normal;
+	text-decoration: none;
+	font-weight: 700;
+
+	&.paginate {
+		width: auto;
+		&.prev {
+			margin-right: 1rem;			
+		}
+		&.next {
+			margin-left: 1rem;			
+		}
+	}
+
+	&:hover, :active, :focus {
+		//text-decoration: underline;
+		outline: none;
+	}
+}
+
+.footer nav {
+	padding: 2rem;
+	a {
+		font-size: @fd-font-head;
+		margin-top: 10px;
+		margin-right: 2rem;
+	}
+}
+
+
+
 @media (max-width: 499px) {
 	h1.title.sitetitle {
 		//font-size: @fd-font-title;
 	}
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1049px) {
 	h1.title.sitetitle {
 		word-spacing: normal;
 	}
+}
+
+@media (min-width: 768px) {
+	.linkposts article, .posts article {
+		&:nth-of-type(odd) .postlistwrapper{
+			padding-right: 2rem;
+		}
+		&:nth-of-type(even) .postlistwrapper{
+			padding-left: 2rem;
+		}
+	}
+}
+
+@media (min-width: 1050px) {
+	.footer nav a {
+		width: 100%;
+		margin-right: 0px;
+	}
+	a.title { text-decoration: none; 
+
+		&:hover h1.title {
+			text-shadow: 3px 3px 0px rgba(250, 250, 250, .3);
+			-webkit-transition: text-shadow 0.1s ease;
+			-moz-transition: text-shadow 0.1s ease;
+			transition: text-shadow 0.1s ease;
+			
+
+			&:before {
+				content: " ";
+				position: absolute;
+				z-index: -1;
+				top: 230px;
+				margin-left: 3px;
+				width: 11.3rem;
+				border-bottom: 1ex solid rgba(250, 250, 250, .3);
+				opacity: 1;
+			}
+		}
+	}
+	
 }
 

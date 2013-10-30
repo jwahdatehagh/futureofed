@@ -7,22 +7,23 @@ title: Future Of Education
     <div class="latest single expandheight bg-blue">
       <div class="sectionwrapper bg-blue">
         <h1 class="title">latest</h1>
-          <ul class="linkposts pure-g-r">
+          <div class="linkposts pure-g-r">
             {% for post in site.categories.linkpost limit:50 %}
-              <li class="pure-u-1-2">
+              <article class="pure-u-1-2">
                 <div class="postlistwrapper">
-                <a href="{{ post.refurl }}" target="_blank">
-                  <span class="title">{{ post.title }}</span> - 
-                  {{ post.subtitle }}
-                </a> 
-                <p class="meta">
-                  <span><a href="{{ post.refurl }}" target="_blank">{{ post.source }}</a></span>
-                  <span class="date">{{ post.date | date: "%-d %b" }}</span>
+                  <a href="{{ post.refurl }}" target="_blank">
+                    <span class="title">{{ post.title }}</span> - 
+                    {{ post.subtitle }}
+                  </a> 
+                  <p class="meta">
+                    <span><a href="{{ post.refurl }}" target="_blank">{{ post.source }}</a></span>
+                    <span class="date">{{ post.date | date: "%-d %b" }}</span>
+                  </p>
                 </div>
-              </li>
+              </article>
             {% endfor %}
-          </ul>
-          <a href="/archive/">even more - browse the archives</a>
+          </div>
+          <nav class="center cl-effect-1"><a href="/archive/" class="more">even more - browse the archives</a></nav>
       </div>
     </div>
 
