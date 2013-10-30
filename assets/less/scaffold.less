@@ -13,6 +13,13 @@ body {
 .bg-green { background-color: @fd-green; }
 .bg-greenblue { background-color: @fd-greenblue; }
 .bg-orange { background-color: @fd-orange; }
+.bg-purple { background-color: @fd-purple; }
+
+@media (max-width: 1049px) {
+	.archive, .about {
+		min-height: 40rem;
+	}
+}
 
 @media (min-width: 768px) {
 	.latest, .deep-dives {

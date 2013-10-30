@@ -1,3 +1,13 @@
+p, a, ul, ol, blockquote {
+	color: @fd-grey;
+	font-weight: 400;
+	font-size: @fd-font-normal;
+}
+
+.about h1.title {
+	margin-bottom: 2rem;
+}
+
 a.title { text-decoration: none; }
 h1.title {
 	width: 100%;
@@ -196,21 +206,34 @@ a.more {
 		margin-right: 0px;
 	}
 	a.title { text-decoration: none; 
+		text-shadow: 3px 3px 0px rgba(250, 250, 250, 0);
 
-		&:hover h1.title {
+		.title::before {
+			content: " ";
+			position: absolute;
+			z-index: -1;
+			top: 230px;
+			margin-left: 3px;
+			width: 11.3rem;
+			border-bottom: 1ex solid rgba(250, 250, 250, .3);
+			opacity: 0;
+			-webkit-transition: all 0.3s ease;
+			-moz-transition: all 0.3s ease;
+			-ms-transition: all 0.3s ease;
+			-o-transition: all 0.3s ease;
+			transition: all 0.3s ease;
+		}
+		&:hover .title,
+		.title:hover {
 			text-shadow: 3px 3px 0px rgba(250, 250, 250, .3);
-			-webkit-transition: text-shadow 0.1s ease;
-			-moz-transition: text-shadow 0.1s ease;
-			transition: text-shadow 0.1s ease;
+			-webkit-transition: all 0.3s ease;
+			-moz-transition: all 0.3s ease;
+			-ms-transition: all 0.3s ease;
+			-o-transition: all 0.3s ease;
+			transition: all 0.3s ease;
 			
 
-			&:before {
-				content: " ";
-				position: absolute;
-				z-index: -1;
-				top: 230px;
-				margin-left: 3px;
-				width: 11.3rem;
+			&::before {
 				border-bottom: 1ex solid rgba(250, 250, 250, .3);
 				opacity: 1;
 			}
