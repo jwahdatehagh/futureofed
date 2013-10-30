@@ -2,11 +2,13 @@ body {
 	background-color: @fd-red;
 }
 
+
 .main {
 	background-color: @fd-red;
 	width: 100%;
 	height: auto;
 }
+
 .sectionwrapper {
 	padding: 2rem;
 }
@@ -24,11 +26,12 @@ body {
 	html, body, .expandheight {
 		height: 100%;
 	}
-	.main {
-		width: 15.3rem;
-		position: fixed;
-	}
-	.content {
+	.site {
 		padding-left: 15.3rem;
+	}
+	.main {
+		position: fixed;
+		margin-left: -15.3rem;
+		width: 15.3rem;
 	}
 }
