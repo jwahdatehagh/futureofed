@@ -31,7 +31,7 @@ title: Future Of Education
                   </li>
           {% endfor %}
         </ul>
-        <nav class="center cl-effect-4"><a href="latest/" class="more">more</a></nav>
+        <nav class="center cl-effect-4"><a href="{{ site.baseurl }}/latest/" class="more">more</a></nav>
       </div>
     </div>
   </div>
@@ -44,7 +44,7 @@ title: Future Of Education
           {% for post in site.posts %}
               {% unless post.categories contains 'linkpost' limit:5 %}
                   <li>
-                    <a href="{{ post.url }}">
+                    <a href="{{ site.baseurl }}{{ post.url }}">
                       <p class="title">{{ post.title }}</p>
                       <p>{{ post.subtitle }}</p>
                     </a> 
@@ -53,7 +53,7 @@ title: Future Of Education
           {% endfor %}
         </ul>
         <nav class="center cl-effect-4">
-          <a href="deep-dives/" class="more">more</a></nav>
+          <a href="{{ site.baseurl }}/deep-dives/" class="more">more</a></nav>
       </div>
     </div>
   </div>
