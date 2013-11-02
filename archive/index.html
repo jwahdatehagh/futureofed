@@ -8,34 +8,6 @@ title: Future Of Education
       <div class="sectionwrapper bg-greenblue">
         <h1 class="title">archive</h1>
 
-          <!--ul class="linkposts pure-g-r">
-            {% for post in paginator.posts %}
-              {% if post.categories contains 'linkpost' %}
-              <li class="pure-u-1-2">
-                <div class="postlistwrapper">
-                <a href="{{ post.refurl }}" target="_blank">
-                  <span class="title">{{ post.title }}</span> - 
-                  {{ post.subtitle }}
-                </a> 
-                <p class="meta">
-                  <span><a href="{{ post.refurl }}" target="_blank">{{ post.source }}</a></span>
-                  <span class="date">{{ post.date | date: "%-d %b" }}</span>
-                </div>
-              </li>
-              {% endif %}
-              {% unless post.categories contains 'linkpost' limit:5 %}
-                <li class="pure-u-1-2">
-                  <div class="postlistwrapper">
-                    <a href="{{ post.url }}" target="_blank">
-                      <p class="title">{{ post.title }}</p>
-                      <p>{{ post.subtitle }}</p>
-                    </a> 
-                  </div>
-                </li>
-              {% endunless %}
-            {% endfor %}
-          </ul-->
-
           <div class="linkposts pure-g-r">
             {% for post in paginator.posts %}
               {% if post.categories contains 'linkpost' %}
@@ -54,7 +26,7 @@ title: Future Of Education
               {% unless post.categories contains 'linkpost' limit:5 %}
                 <article class="pure-u-1-2">
                   <div class="postlistwrapper">
-                    <a href="{{ site.baseurl }}{{ post.url }}" target="_blank">
+                    <a href="{{ site.baseurl }}{{ post.url }}">
                       <p class="title">{{ post.title }}</p>
                       <p>{{ post.subtitle }}</p>
                     </a> 
