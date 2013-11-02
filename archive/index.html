@@ -54,7 +54,7 @@ title: Future Of Education
               {% unless post.categories contains 'linkpost' limit:5 %}
                 <article class="pure-u-1-2">
                   <div class="postlistwrapper">
-                    <a href="{{ post.url }}" target="_blank">
+                    <a href="{{ site.baseurl }}{{ post.url }}" target="_blank">
                       <p class="title">{{ post.title }}</p>
                       <p>{{ post.subtitle }}</p>
                     </a> 
@@ -67,14 +67,14 @@ title: Future Of Education
           <nav class="center cl-effect-4">
             {% if paginator.previous_page %}
               {% if paginator.previous_page == 1 %}
-              <a href="/archive/" title="Previous Page" class="more paginate prev">back</a>
+              <a href="{{ site.baseurl }}/archive/" title="Previous Page" class="more paginate prev">back</a>
               {% else %}
-              <a href="/archive/page{{ paginator.previous_page }}/" title="Previous Page" class="more paginate prev">back</a>
+              <a href="{{ site.baseurl }}/archive/page{{ paginator.previous_page }}/" title="Previous Page" class="more paginate prev">back</a>
               {% endif %}
             {% endif %}
 
             {% if paginator.next_page %} 
-              <a href="/archive/page{{ paginator.next_page }}/" title="Next Page" class="more paginate next">next</a>
+              <a href="{{ site.baseurl }}/archive/page{{ paginator.next_page }}/" title="Next Page" class="more paginate next">next</a>
             {% endif %} 
           </nav>
       </div>

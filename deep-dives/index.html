@@ -10,7 +10,7 @@ title: Future Of Education
           {% for post in site.posts limit:50 %}
               {% unless post.categories contains 'linkpost' %}
                   <li>
-                    <a href="{{ post.url }}" target="_blank">
+                    <a href="{{ site.baseurl }}{{ post.url }}" target="_blank">
                       <p class="title">{{ post.title }}</p>
                       <p>{{ post.subtitle }}</p>
                     </a> 
@@ -18,7 +18,7 @@ title: Future Of Education
               {% endunless %}
           {% endfor %}
         </ul>
-        <nav class="center cl-effect-4"><a href="/archive/" class="more">even more - browse the archives</a></nav>
+        <nav class="center cl-effect-4"><a href="{{ site.baseurl }}/archive/" class="more">even more - browse the archives</a></nav>
       </div>
     </div>
 
