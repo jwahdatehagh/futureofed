@@ -1,4 +1,4 @@
-@import "../purecss.css";
+@import "../css/purecss.css";
 body{background-color:#c35050;}
 .main{background-color:#c35050;width:100%;height:auto;}
 .sectionwrapper{padding:2rem;}
