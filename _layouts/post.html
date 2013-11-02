@@ -1,10 +1,14 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<h3>{{ page.subtitle }}</h3>
-<p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
-{{ content }}
+<div class="latest single expandheight bg-green">
+	<div class="sectionwrapper">
+		<h1 class="title">{{ page.title }}<span class="subtitle"> {{ page.subtitle }}</span><span class="meta">{{ page.date | date_to_string }}</span></h1>
+
+		<div class="post">
+		{{ content }}
+		</div>
+	</div>
 </div>
+

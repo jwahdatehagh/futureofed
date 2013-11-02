@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title:  "Welcome to Jekyll!"
-subtitle:  "Welcome to Jekyll! This is supercool!!! The code is open source..."
+subtitle:  "This is supernice!"
 date:   2013-10-28 02:38:02
 permalink: /testestest.html
 categories: deepdive
