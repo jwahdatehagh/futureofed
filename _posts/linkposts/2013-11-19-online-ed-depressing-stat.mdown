@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Online Ed's Depressing Statistics"
+subtitle:  "And What They Mean for the Future of For-Profit"
+date:   2013-11-19 02:00:00
+refurl: http://www.dailyfinance.com/2013/11/19/online-educations-depressing-statistics-and-what-t/
+source: dailyfinance.com
+categories: linkpost
+---
