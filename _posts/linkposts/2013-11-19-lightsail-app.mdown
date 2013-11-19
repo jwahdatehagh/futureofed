@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Literacy Platform of the future"
+subtitle:  "A New York City startup, LightSail Inc., raised $3.5 million in Series A funding for an app designed to improve K-12 students’ literacy."
+date:   2013-11-19 01:00:00
+refurl: http://blogs.wsj.com/venturecapital/2013/11/18/lightsail-education-raises-3-5m-to-ensure-the-bookworms-are-our-future/
+source: wsj.com
+categories: linkpost
+---
