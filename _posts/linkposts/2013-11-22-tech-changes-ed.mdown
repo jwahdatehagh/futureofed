@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "6 Ways Tech Will Change Education Forever"
+subtitle:  "Want to know what college will look like in 10, 20, 30 years? Here are six predictions from some of the brightest minds in academia and business."
+date:   2013-11-22 02:00:00
+refurl: http://www.inc.com/issie-lapowsky/7-ways-tech-changes-education.html
+source: inc.com
+categories: linkpost
+---
