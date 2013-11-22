@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Fraudulent Degrees"
-subtitle:  "And how MOOCs may Facilitate them"
+subtitle:  "And how MOOCs may facilitate them"
 date:   2013-11-20 03:00:00
 refurl: http://www.huffingtonpost.com/robert-siciliano/moocs-may-facillitate-fra_b_4302001.html
 source: huffingtonpost.com

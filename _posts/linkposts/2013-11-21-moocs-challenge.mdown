@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Dr. Keith Devlin"
+subtitle:  "Why MOOCs May Still Be Silicon Valley's Next Grand Challenge"
+date:   2013-11-21 01:00:00
+refurl: http://www.huffingtonpost.com/dr-keith-devlin/why-moocs-remain-silicon-_b_4289739.html
+source: huffingtonpost.com
+categories: linkpost
+---
