@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Most MOOC Users Well-Educated"
+subtitle:  "University of Pennsylvania Study finds that MOOC Students Are Elite, Young and Male"
+date:   2013-11-22 01:00:00
+refurl: http://blogs.wsj.com/digits/2013/11/20/survey-mooc-students-are-elite-young-and-male-2/
+source: wsj.com
+categories: linkpost
+---
