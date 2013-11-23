@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "The Developing World Shouldn't Fear MOOCs"
+subtitle:  "Online courses won’t hurt local educational systems—they’ll help."
+date:   2013-11-23 01:00:00
+refurl: http://www.slate.com/articles/technology/future_tense/2013/11/kepler_spire_the_developing_world_should_embrace_moocs.html
+source: slate.com
+categories: linkpost
+---
