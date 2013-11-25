@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Study Reveals Economic Impact of Uneducated Children"
+subtitle:  ""On average the cost of out-of-school children dwarfs the spending required to achieve universal primary education by a ratio of five to one.""
+date:   2013-11-25 01:00:00
+refurl: http://www.voanews.com/content/schoolchildren-uneducated-primary-study-africa-asia-gdp-economic-education/1795437.html
+source: voanews.com
+categories: linkpost
+---
