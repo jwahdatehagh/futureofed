@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "MOOC Attrition Rates - Running the Numbers"
+subtitle:  "The prosecution against MOOCs usually starts by highlighting the huge attrition rates for massive open courses, often claimed to run as high as 90-95 percent. Who in their right mind would trust their kid's education to a program that can't even hold onto one out of ten students? Case closed. Or is it?"
+date:   2013-11-26 01:00:00
+refurl: http://www.huffingtonpost.com/jonathan-haber/mooc-attrition-rates-runn_b_4325299.html
+source: huffingtonpost.com
+categories: linkpost
+---
