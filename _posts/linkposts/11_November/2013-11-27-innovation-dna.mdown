@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Udacity: Innovation is in our DNA"
+subtitle:  "At Udacity, our mission is to set up students for success. From the earliest days of Udacity, we always loved to try new things. We started the first truly massive MOOC; we invented an entirely new interactive, scalable learning experience..."
+date:   2013-11-27 01:00:00
+refurl: http://blog.udacity.com/2013/11/udacity-innovation-is-in-our-dna.html
+source: blog.udacity.com
+categories: linkpost
+---
