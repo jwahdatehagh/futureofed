@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Technology in the classroom - the future of education?"
+subtitle:  "Socrates worried that writing would result in forgetful pupils. Objections to the introduction of new technology in the classroom are not new. Whether this new advancement is writing, ballpoint pens or tablets, the question is always the same. Will it be good for pupils?"
+date:   2013-11-29 01:00:00
+refurl: http://oxfordstudent.com/2013/11/27/47993/
+source: oxfordstudent.com
+categories: linkpost
+---
