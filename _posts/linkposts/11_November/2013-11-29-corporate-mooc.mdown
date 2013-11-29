@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "The Rise Of The Corporate MOOC"
+subtitle:  "It's not your father's corporate training. EdX wants to help companies offer their own massive open online courses to keep employees' skills updated."
+date:   2013-11-29 02:00:00
+refurl: http://www.informationweek.com/strategic-cio/team-building-and-staffing/rise-of-the-corporate-mooc/d/d-id/1112784
+source: informationweek.com
+categories: linkpost
+---
