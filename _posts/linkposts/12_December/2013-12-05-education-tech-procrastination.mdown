@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Technology both aids studying  and abets  procrastination"
+subtitle:  "A recent study conducted by McGraw-Hill Education found what many students could likely confirm — technology, while extremely useful for students’ studies, can also be a tool for procrastination."
+date:   2013-12-05 01:00:00
+refurl: http://bostonherald.com/business/business_markets/2013/12/technology_both_aids_studying_and_abets_procrastination
+source: bostonherald.com
+categories: linkpost
+---
