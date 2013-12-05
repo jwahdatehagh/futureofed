@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Digitized Education"
+subtitle:  "The days of white chalk and a green chalkboard have been left in the dust by new technology that has revolutionized the way children learn in classrooms."
+date:   2013-12-04 02:00:00
+refurl: http://www.nlnewsnow.com/News/Local/2013-12-04/article-3529731/Digitized-education%0D%0A/1
+source: nlnewsnow.com
+categories: linkpost
+---
