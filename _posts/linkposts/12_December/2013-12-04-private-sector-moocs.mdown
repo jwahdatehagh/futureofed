@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Private Sector Warming To MOOCS"
+subtitle:  "For all the talk about the MOOC backlash setting in, the past few months have actually been an extremely fertile time for innovations in online learning, particularly when it comes to partnerships between MOOC purveyors and private companies."
+date:   2013-12-04 01:00:00
+refurl: http://blogs.the-american-interest.com/wrm/2013/12/03/private-sector-warming-to-moocs/
+source: the-american-interest.com
+categories: linkpost
+---

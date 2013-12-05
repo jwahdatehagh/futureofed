@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "MOOCs Are a 'Big Experiment'"
+subtitle:  "'One of the biggest challenges of MOOCs is how to give students feedback on how they do in the course, Jablokow said. The creativity class experimented with peer assessments and optional projects to earn certificates.'"
+date:   2013-12-03 01:00:00
+refurl: http://www.prweb.com/releases/2013/12/prweb11383573.htm
+source: prweb.com
+categories: linkpost
+---
