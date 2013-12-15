@@ -8,7 +8,7 @@ title: Future Of Education
       <div class="sectionwrapper bg-blue">
         <h1 class="title">latest</h1>
           <div class="linkposts pure-g-r">
-            {% for post in site.categories.linkpost limit:50 %}
+            {% for post in site.categories.linkpost limit:8 %}
               <article class="pure-u-1-2">
                 <div class="postlistwrapper">
                   <a href="{{ post.refurl }}" target="_blank">
@@ -24,7 +24,7 @@ title: Future Of Education
             {% endfor %}
           </div>
           <nav class="center cl-effect-4">
-            <a href="{{ site.baseurl }}/archive/" class="more">more - browse the archives</a>
+            <a href="{{ site.baseurl }}/archive/page2/" class="more">more - browse the archives</a>
           </nav>
       </div>
     </div>
