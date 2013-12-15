@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "The Future of Online Higher Education"
+subtitle:  "According to futurist and online education pioneer, Dr. Fred DiUlus PhD, higher education is on an accelerated course headed for revolutionary change. Here is a summary of his thoughts he shared with officials from Virginia University of Lynchburg."
+date:   2013-12-14 01:00:00
+refurl: http://www.expertclick.com/NRWire/Releasedetails.aspx?id=50325
+source: expertclick.com
+categories: linkpost
+---

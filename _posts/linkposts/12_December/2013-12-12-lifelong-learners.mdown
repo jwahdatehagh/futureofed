@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "MOOCs and Lifelong Learners"
+subtitle:  "Why should schools and investors be sinking millions into creating educational resources (i.e., MOOCs) that we all know just benefit older, educated, professional (and by implication well-off, middle-class) lifelong learners who already have so much, vs. using those same resources to advance the education of the neediest."
+date:   2013-12-12 01:00:00
+refurl: http://www.huffingtonpost.com/jonathan-haber/moocs-and-lifelong-learners_b_4431373.html
+source: huffingtonpost.com
+categories: linkpost
+---
