@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Flipped: Changing the Role of Classrooms Around the World"
+subtitle:  "In the very near future, video has the potential to become just as ubiquitous and available as print resources have been in education, revolutionizing the college and university experience for students, faculty and leadership alike."
+date:   2013-12-15 01:00:00
+refurl: http://www.huffingtonpost.com/john-m-eger/changing-the-role-of-clas_b_4429987.html
+source: huffingtonpost.com
+categories: linkpost
+---
