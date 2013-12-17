@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Base Degrees on What We Know, Not How Long We Spent in a Classroom"
+subtitle:  "Competency-based education allows for more individualized instruction. If students understand the material they move on without waiting until the end of the typical fifteen-week semester they would find at most colleges."
+date:   2013-12-16 01:00:00
+refurl: http://www.linkedin.com/today/post/article/20131210000347-17000124-big-idea-2014-base-degrees-on-what-we-know-not-how-long-we-spent-in-a-classroom
+source: linkedin.com
+categories: linkpost
+---
