@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Education tech’s top challenges"
+subtitle:  "Khan Academy's Salman Khan and Coursera founder Andrew Ng on education tech’s top challenges like expanding access to education and going mobile."
+date:   2013-12-18 01:00:00
+refurl: http://www.bizjournals.com/sanjose/news/2013/12/16/khan-academys-sal-khan-coursera.html
+source: bizjournals.com
+categories: linkpost
+---

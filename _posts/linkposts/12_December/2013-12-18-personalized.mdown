@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Education will be hyper-personalised"
+subtitle:  "While teachers won’t be replaced, the tablet will enhance the teacher’s ability to be a facilitator instead of setting the pace. The teacher’s role will change to be a curator of great material and a person that understands the unique needs of each student."
+date:   2013-12-18 02:00:00
+refurl: http://www.dnaindia.com/analysis/column-education-will-be-hyper-personalised-1936623
+source: dnaindia.com
+categories: linkpost
+---
