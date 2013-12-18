@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Education Technology Is In Its Infancy But It Is Growing Up Fast"
+subtitle:  'The classroom setting with a professor standing at the head of a class talking at a roomful of students is largely the same model that existed when the first universities were established in the United States. It is no wonder that some creative people have stepped forward with truly innovative ideas in the education space to attempt to turn the traditional model upside down.'
+date:   2013-12-17 02:00:00
+refurl: http://www.forbes.com/sites/peterhigh/2013/12/09/education-technology-is-in-its-infancy-but-it-is-growing-fast/
+source: forbes.com
+categories: linkpost
+---
