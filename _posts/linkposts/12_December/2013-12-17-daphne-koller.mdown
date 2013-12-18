@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Daphne Koller (Coursera)"
+subtitle:  '"We are going to have to teach the new teacher how to teach and we are going to have to change the classroom architecture to allow for this more collaborative learning in the classroom."'
+date:   2013-12-17 01:00:00
+refurl: http://www.forbes.com/sites/peterhigh/2013/12/16/for-coursera-broader-is-better/
+source: forbes.com
+categories: linkpost
+---
