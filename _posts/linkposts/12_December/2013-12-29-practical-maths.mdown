@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Practical maths in schools is a formula for future success"
+subtitle:  "Students should be allowed to use computers to solve problems in class and in exams."
+date:   2013-12-29 01:00:00
+refurl: http://www.theguardian.com/commentisfree/2013/dec/29/practical-maths-schools-formula-future-success
+source: theguardian.com
+categories: linkpost
+---
