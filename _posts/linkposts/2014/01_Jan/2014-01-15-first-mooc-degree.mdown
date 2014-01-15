@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "World's First Massive Online Degree Program Starts Today"
+subtitle:  "Today, marks the first day in class for Georgia Tech's new online Master’s degree in Computer Science program, which Georgia Tech, Udacity, and AT&T have jointly developed."
+date:   2014-01-15 01:00:00
+refurl: http://blog.udacity.com/2014/01/sebastian-thrun-worlds-first-massive.html
+source: blog.udacity.com
+categories: linkpost
+---
