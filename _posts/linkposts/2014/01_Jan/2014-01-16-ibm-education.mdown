@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Personalized Learning: 5 Future Technology Predictions from IBM"
+subtitle:  "In five years, classrooms will learn about you, and personalize coursework accordingly. It's the end of the era of one-size-fits-all education, and the beginning of personalized learning."
+date:   2014-01-16 01:00:00
+refurl: http://www.youtube.com/watch?v=hTA5GyWamR0
+source: youtube.com
+categories: linkpost
+---
