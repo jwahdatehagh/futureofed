@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "The not so bright near future of jobs and how education must help"
+subtitle:  "The effect of today’s technology on tomorrow’s jobs will be immense. Over the past 30 years the digital revolution has displaced many of the mid-skill jobs that underpinned 20th-century middle-class life."
+date:   2014-01-17 02:00:00
+refurl: http://www.economist.com/news/leaders/21594298-effect-todays-technology-tomorrows-jobs-will-be-immenseand-no-country-ready
+source: economist.com
+categories: linkpost
+---
