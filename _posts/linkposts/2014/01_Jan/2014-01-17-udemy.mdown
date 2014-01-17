@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Udemy takes mobile MOOCs to Android"
+subtitle:  "Udemy, which is backed by $16 million in venture capital and angel funding, offers a mix of free and paid online courses taught by academics and other enterprising instructors. The company counts roughly 1.5 million users, which includes a mix of individual students and employees whose companies use online courses as a high-tech corporate training tool."
+date:   2014-01-17 01:00:00
+refurl: http://www.bizjournals.com/sanjose/news/2014/01/10/udemy-takes-the-ed-tech-and-mooc.html?page=all
+source: bizjournals.com
+categories: linkpost
+---
