@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Khan Academy and the White House team up to prepare students for college"
+subtitle:  "There is a big issue in the education system today. Two out of every three students are not prepared for college level math courses and over half of all 4-year college students do not graduate within 6 years. These students often take on a lot of debt and can’t finish their degrees. Worst of all, they then miss out on today’s most exciting careers because they lack the skills."
+date:   2014-01-18 01:00:00
+refurl: https://www.khanacademy.org/college-admissions
+source: khanacademy.org
+categories: linkpost
+---
