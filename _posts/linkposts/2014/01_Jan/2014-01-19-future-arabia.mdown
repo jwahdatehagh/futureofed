@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Online self-learning tools in Arabic: Duroosi"
+subtitle:  "The initiative offers self-learning options with visual aids providing easy access to students in Grade 11 and 12 to develop their skills. Students can login to a dedicated Duroosi channel to access the tutorial videos on YouTube for lessons offered by teachers selected by the Ministry of Education."
+date:   2014-01-19 01:00:00
+refurl: http://www.arabianbusiness.com/the-future-of-education-online-self-learning-tools-534940.html
+source: arabianbusiness.com
+categories: linkpost
+---
