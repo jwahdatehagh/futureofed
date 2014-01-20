@@ -2,11 +2,24 @@
 layout: default
 ---
 
-<div class="latest single expandheight bg-green">
-	<div class="sectionwrapper">
-		<h1 class="title">{{ page.title }}<!--span class="subtitle"> {{ page.subtitle }}</span--> <!--span class="meta">{{ page.date | date_to_string }}</span--></h1>
+<style type="text/css">
+	.post {
+		max-width: 40rem;
+		margin: auto;
+	}
+	.post p, .post ul, .post ol {
+		font-size: 1.4rem;
+		line-height: 2rem;
+	}
 
+</style>
+
+<div class="latest single expandheight bg-green">
+	<div class="sectionwrapper bg-green">
 		<div class="post">
+			<h1 class="title">{{ page.title }}<!--span class="subtitle"> {{ page.subtitle }}</span--> <!--span class="meta">{{ page.date | date_to_string }}</span--></h1>
+			<h2>{{ page.subtitle }}</h2>
+		
 		{{ content }}
 		</div>
 	</div>
