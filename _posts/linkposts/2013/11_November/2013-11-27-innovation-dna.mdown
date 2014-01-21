@@ -6,4 +6,5 @@ date:   2013-11-27 01:00:00
 refurl: http://blog.udacity.com/2013/11/udacity-innovation-is-in-our-dna.html
 source: blog.udacity.com
 categories: linkpost
+tag: post
 ---

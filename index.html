@@ -18,7 +18,19 @@ title: Future Of Education
               {{ postdate }} 
             -->
 
-          {% for post in site.categories.linkpost limit:5 %}
+          {% for post in site.tags.post limit:5 %}
+              {% if post.categories contains 'posts' %}
+                  <li>
+                    <a href="{{ site.baseurl }}{{ post.url }}">
+                      <span class="title" style="color:white;">{{ post.title }}</span> - 
+                      {{ post.excerpt }}
+                    </a>
+                    <p class="meta">
+                      <span class="date">{{ post.date | date: "%-d %b" }}</span>
+                    </p>                     
+                  </li>
+              {% endif %}
+              {% unless post.categories contains 'posts' %}
                   <li>
                     <a href="{{ post.refurl }}" target="_blank">
                       <span class="title">{{ post.title }}</span> - 
@@ -29,6 +41,7 @@ title: Future Of Education
                       <span class="date">{{ post.date | date: "%-d %b" }}</span>
                     </p>                     
                   </li>
+              {% endunless %}
           {% endfor %}
         </ul>
         <nav class="center cl-effect-4"><a href="{{ site.baseurl }}/latest/" class="more">more</a></nav>
@@ -42,14 +55,14 @@ title: Future Of Education
         <h1 class="title">deep dives</h1>
         <ul class="posts">
           {% for post in site.posts %}
-              {% unless post.categories contains 'linkpost' limit:5 %}
+              {% if post.categories contains 'deep-dive' limit:5 %}
                   <li>
                     <a href="{{ site.baseurl }}{{ post.url }}">
                       <p class="title">{{ post.title }}</p>
                       <p>{{ post.subtitle }}</p>
                     </a> 
                   </li>
-              {% endunless %}
+              {% endif %}
           {% endfor %}
         </ul>
         <!--nav class="center cl-effect-4">

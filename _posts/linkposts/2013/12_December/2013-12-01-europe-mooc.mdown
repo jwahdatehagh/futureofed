@@ -6,4 +6,5 @@ date:   2013-12-01 01:00:00
 refurl: http://www.ft.com/intl/cms/s/2/003fef1a-505e-11e3-9f0d-00144feabdc0.html
 source: ft.com
 categories: linkpost
+tag: post
 ---

@@ -6,4 +6,5 @@ date:   2014-01-17 02:00:00
 refurl: http://www.economist.com/news/leaders/21594298-effect-todays-technology-tomorrows-jobs-will-be-immenseand-no-country-ready
 source: economist.com
 categories: linkpost
+tag: post
 ---

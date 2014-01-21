@@ -3,6 +3,9 @@ p, a, ul, ol, blockquote {
 	font-weight: 400;
 	font-size: @fd-font-normal;
 }
+h1, h2, h3, h4, h5, h6 {
+	color: @fd-grey;
+}
 
 .about h1.title {
 	margin-bottom: 2rem;
@@ -175,6 +178,32 @@ a.more {
 	}
 }
 
+
+.post {
+	max-width: 40rem;
+	margin: auto;
+	
+	h1 {
+		padding-top: 2rem;
+	}
+	h1:first-child {
+		margin-bottom: 2rem;
+	}
+	p, ul, ol, blockquote {
+		font-size: @fd-font-post;
+		line-height: 1.4em;
+	}
+	blockquote {
+		margin-left: 0;
+		padding-left: 2rem;
+		border-left: 5px solid @fd-grey;
+	}
+	p.meta {
+		text-align: center;
+		font-size: @fd-font-normal;
+		font-style: italic;
+	}
+}
 
 
 @media (max-width: 499px) {

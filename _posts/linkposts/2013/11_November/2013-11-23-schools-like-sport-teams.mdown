@@ -6,4 +6,5 @@ date:   2013-11-23 02:00:00
 refurl: http://www.huffingtonpost.com/diane-ravitch/why-do-we-treat-schools-l_b_4326911.html
 source: huffingtonpost.com
 categories: linkpost
+tag: post
 ---

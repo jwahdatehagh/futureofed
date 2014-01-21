@@ -1,10 +1,15 @@
 ---
 layout: post
-title:  "Schule der Zukunft"
-subtitle:  "Wie müsste eine Schule aussehen, damit sie den Anforderungen der Zukunft gerecht wird?"
-date:   2014-01-19 01:00:00
-categories: deep-dive
+title:  "Bildung der Zukunft!"
+excerpt:  "Wie müsste eine Schule aussehen, damit sie den Anforderungen der Zukunft gerecht wird? Uff, was für eine Frage! Ich will nicht behaupten, eine Antwort zu haben, aber lasst uns ein bisschen darüber nachdenken..."
+date:   2014-01-21 01:00:00
+author: jalil
+author-url: http://www.google.com/+jalilwahdatehagh
+categories: posts
+tag: post
 ---
+
+## Wie müsste eine Schule aussehen, damit sie den Anforderungen der Zukunft gerecht wird?
 
 Uff — was für eine Frage! Ich will nicht behaupten, eine Antwort zu haben, aber lasst uns ein bisschen darüber nachdenken.
 Der Sinn von Bildung

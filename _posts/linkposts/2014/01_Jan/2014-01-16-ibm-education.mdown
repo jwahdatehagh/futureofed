@@ -6,4 +6,5 @@ date:   2014-01-16 01:00:00
 refurl: http://www.youtube.com/watch?v=hTA5GyWamR0
 source: youtube.com
 categories: linkpost
+tag: post
 ---

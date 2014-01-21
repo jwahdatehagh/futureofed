@@ -6,4 +6,5 @@ date:   2013-11-26 01:00:00
 refurl: http://www.huffingtonpost.com/jonathan-haber/mooc-attrition-rates-runn_b_4325299.html
 source: huffingtonpost.com
 categories: linkpost
+tag: post
 ---

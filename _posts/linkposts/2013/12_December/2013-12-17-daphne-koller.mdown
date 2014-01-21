@@ -6,4 +6,5 @@ date:   2013-12-17 01:00:00
 refurl: http://www.forbes.com/sites/peterhigh/2013/12/16/for-coursera-broader-is-better/
 source: forbes.com
 categories: linkpost
+tag: post
 ---
