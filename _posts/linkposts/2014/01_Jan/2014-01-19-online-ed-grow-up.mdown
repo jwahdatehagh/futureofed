@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Can online education grow up?"
+subtitle:  "Questions about MOOCs’ financial viability didn’t irk investors during 2012, when venture capitalists poured $1 billion into education technology. But a recent report by CB Insights found a relatively low follow-on investment rate in the sector."
+date:   2014-01-21 01:00:00
+refurl: http://upstart.bizjournals.com/companies/innovation/2014/01/19/can-online-education-grow-up.html?page=all
+source: bizjournals.com
+categories: linkpost
+---
