@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Coursera Specializations: Focused Programs in Popular Fields"
+subtitle:  "Yesterday, Coursera announced Specializations, a new type of program that allows students to develop mastery in a specific subject. Specializations take the learning experience beyond one course, offering multi-course series in cutting-edge fields from top institutions in the world."
+date:   2014-01-22 01:00:00
+refurl: https://www.coursera.org/specializations
+source: coursera.org
+categories: linkpost
+---
