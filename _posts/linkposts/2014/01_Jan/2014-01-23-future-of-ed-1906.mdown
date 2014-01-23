@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "The Future Of Education Was Invented In 1906"
+subtitle:  "The future of education is here. It’s got nothing to do with laptops. It was invented well over a century ago. What are we waiting for?"
+date:   2014-01-23 01:00:00
+refurl: http://www.forbes.com/sites/pascalemmanuelgobry/2014/01/22/the-future-of-education-internet-one-laptop-per-child-ted-sugata-mitra-montessori/
+source: forbes.com
+categories: linkpost
+---
