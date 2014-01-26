@@ -22,7 +22,6 @@ nav,
 section,
 summary {
   display: block;
-  animation: test 2s infinite;
 }
 audio,
 canvas,
