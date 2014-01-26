@@ -6,4 +6,5 @@ date:   2014-01-22 01:00:00
 refurl: http://blog.udacity.com/2014/01/sebastian-thrun-closing-job-skills-gap.html
 source: udacity.com
 categories: linkpost
+tag: post
 ---

@@ -6,4 +6,5 @@ date:   2014-01-21 01:00:00
 refurl: http://upstart.bizjournals.com/companies/innovation/2014/01/19/can-online-education-grow-up.html?page=all
 source: bizjournals.com
 categories: linkpost
+tag: post
 ---
