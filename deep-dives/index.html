@@ -10,9 +10,9 @@ title: Future Of Education
           {% for post in site.posts limit:50 %}
               {% if post.categories contains 'deep-dive' %}
                   <li>
-                    <a href="{{ site.baseurl }}{{ post.url }}" target="_blank">
+                    <a href="{{ site.baseurl }}{{ post.url }}">
                       <p class="title">{{ post.title }}</p>
-                      <p>{{ post.subtitle }}</p>
+                      <p>{{ post.excerpt }}</p>
                     </a> 
                   </li>
               {% endif %}
