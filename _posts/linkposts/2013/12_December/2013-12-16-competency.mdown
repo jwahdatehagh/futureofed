@@ -6,4 +6,5 @@ date:   2013-12-16 01:00:00
 refurl: http://www.linkedin.com/today/post/article/20131210000347-17000124-big-idea-2014-base-degrees-on-what-we-know-not-how-long-we-spent-in-a-classroom
 source: linkedin.com
 categories: linkpost
+tag: post
 ---

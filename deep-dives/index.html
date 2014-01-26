@@ -8,17 +8,17 @@ title: Future Of Education
         <h1 class="title">deep dives</h1>
           <ul class="posts">
           {% for post in site.posts limit:50 %}
-              {% unless post.categories contains 'linkpost' %}
+              {% if post.categories contains 'deep-dive' %}
                   <li>
                     <a href="{{ site.baseurl }}{{ post.url }}" target="_blank">
                       <p class="title">{{ post.title }}</p>
                       <p>{{ post.subtitle }}</p>
                     </a> 
                   </li>
-              {% endunless %}
+              {% endif %}
           {% endfor %}
         </ul>
-        <nav class="center cl-effect-4"><a href="{{ site.baseurl }}/archive/" class="more">even more - browse the archives</a></nav>
+        <nav class="center cl-effect-4"><a href="{{ site.baseurl }}/archive/" class="more">more - browse the archives</a></nav>
       </div>
     </div>
 

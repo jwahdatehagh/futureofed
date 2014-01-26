@@ -6,4 +6,5 @@ date:   2013-12-18 01:00:00
 refurl: http://www.bizjournals.com/sanjose/news/2013/12/16/khan-academys-sal-khan-coursera.html
 source: bizjournals.com
 categories: linkpost
+tag: post
 ---

@@ -10,30 +10,48 @@ title: Future Of Education
 
           <div class="linkposts pure-g-r">
             {% for post in paginator.posts %}
-              {% if post.categories contains 'linkpost' %}
-              <article class="pure-u-1-2">
-                <div class="postlistwrapper">
-                <a href="{{ post.refurl }}" target="_blank">
-                  <span class="title">{{ post.title }}</span> - 
-                  {{ post.subtitle }}
-                </a> 
-                <p class="meta">
-                  <span><a href="{{ post.refurl }}" target="_blank">{{ post.source }}</a></span>
-                  <span class="date">{{ post.date | date: "%-d %b" }}</span>
-                </div>
-              </article>
+              {% if post.categories contains 'posts' %}
+                  <article class="pure-u-1-2">
+                    <div class="postlistwrapper">
+                      <a href="{{ site.baseurl }}{{ post.url }}">
+                        <span class="title" style="color:white;">{{ post.title }}</span> - 
+                        {{ post.excerpt }}
+                      </a> 
+                      <p class="meta">
+                        <span class="date">{{ post.date | date: "%-d %b" }}</span>
+                      </p>
+                    </div>
+                  </article>
               {% endif %}
-              {% unless post.categories contains 'linkpost' limit:5 %}
-                <article class="pure-u-1-2">
-                  <div class="postlistwrapper">
-                    <a href="{{ site.baseurl }}{{ post.url }}">
-                      <p class="title">{{ post.title }}</p>
-                      <p>{{ post.subtitle }}</p>
-                    </a> 
-                  </div>
-                </article>
-              {% endunless %}
+              {% if post.categories contains 'deep-dive' %}
+                  <article class="pure-u-1-2">
+                    <div class="postlistwrapper">
+                      <a href="{{ site.baseurl }}{{ post.url }}">
+                        <p><span class="title" style="color:white;">{{ post.title }}</span></p>
+                        <p>{{ post.excerpt }}</p>
+                      </a>
+                      <p class="meta">
+                        <span>deep dive</span>
+                      </p>
+                    </div>
+                  </article>
+              {% endif %}
+              {% if post.categories contains 'linkpost' %}
+                  <article class="pure-u-1-2">
+                    <div class="postlistwrapper">
+                      <a href="{{ post.refurl }}" target="_blank">
+                        <span class="title">{{ post.title }}</span> - 
+                        {{ post.subtitle }}
+                      </a> 
+                      <p class="meta">
+                        <span><a href="{{ post.refurl }}" target="_blank">{{ post.source }}</a></span>
+                        <span class="date">{{ post.date | date: "%-d %b" }}</span>
+                      </p>
+                    </div>
+                  </article>
+              {% endif %}
             {% endfor %}
+
           </div>
 
           <nav class="center cl-effect-4">

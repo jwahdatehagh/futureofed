@@ -6,4 +6,5 @@ date:   2013-12-29 01:00:00
 refurl: http://www.theguardian.com/commentisfree/2013/dec/29/practical-maths-schools-formula-future-success
 source: theguardian.com
 categories: linkpost
+tag: post
 ---

@@ -6,4 +6,5 @@ date:   2013-12-12 01:00:00
 refurl: http://www.huffingtonpost.com/jonathan-haber/moocs-and-lifelong-learners_b_4431373.html
 source: huffingtonpost.com
 categories: linkpost
+tag: post
 ---

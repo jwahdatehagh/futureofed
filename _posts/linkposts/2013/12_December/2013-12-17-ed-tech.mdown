@@ -6,4 +6,5 @@ date:   2013-12-17 02:00:00
 refurl: http://www.forbes.com/sites/peterhigh/2013/12/09/education-technology-is-in-its-infancy-but-it-is-growing-fast/
 source: forbes.com
 categories: linkpost
+tag: post
 ---

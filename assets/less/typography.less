@@ -3,6 +3,9 @@ p, a, ul, ol, blockquote {
 	font-weight: 400;
 	font-size: @fd-font-normal;
 }
+h1, h2, h3, h4, h5, h6 {
+	color: @fd-grey;
+}
 
 .about h1.title {
 	margin-bottom: 2rem;
@@ -175,6 +178,43 @@ a.more {
 	}
 }
 
+
+.post {
+	max-width: 40rem;
+	margin: auto;
+
+	
+	h1, h2, h3, h4, h5, h6 {
+		padding-top: 2rem;
+	}
+	h2:first-of-type {
+		padding-top: .4rem;
+	}
+	h1.title {
+		padding-top: 2rem;
+		margin-bottom: 2rem;
+	}
+	p, ul, ol, blockquote {
+		font-size: @fd-font-post;
+		line-height: 1.4em;
+	}
+	blockquote {
+		margin-left: 0;
+		padding-left: 2rem;
+		font-style: italic;
+		font-size: @fd-font-head;
+		border-left: 5px solid @fd-grey;
+
+		p {
+			font-size: inherit;
+		}
+	}
+	p.meta {
+		text-align: right;
+		font-size: @fd-font-normal;
+		font-style: italic;
+	}
+}
 
 
 @media (max-width: 499px) {

@@ -15,6 +15,13 @@ body {
 .bg-orange { background-color: @fd-orange; }
 .bg-purple { background-color: @fd-purple; }
 
+#social {
+	padding: 2rem 2rem 0;
+}
+#disqus_thread {
+	padding-top: 3rem;
+}
+
 @media (max-width: 1049px) {
 	.archive, .about {
 		min-height: 40rem;
@@ -25,10 +32,16 @@ body {
 	.latest, .deep-dives {
 		min-height: 49rem;
 	}
+	#social {
+		position: fixed;
+		right: 30px;
+		bottom: 20px;
+		padding: 0;
+	}
 }
 @media (min-width: 1050px) {
 	html, body, .expandheight {
-		height: 100%;
+		min-height: 100%;
 	}
 	.site {
 		padding-left: 15.3rem;
@@ -47,6 +60,6 @@ body {
 }
 @media (min-width: 1050px) and (min-height: 49rem) {
 	html, body, .expandheight {
-		height: 100vh;
+		min-height: 100vh;
 	}
 }

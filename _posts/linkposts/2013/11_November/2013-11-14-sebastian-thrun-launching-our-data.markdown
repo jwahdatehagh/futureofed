@@ -6,4 +6,5 @@ date:   2013-11-14 01:00:00
 refurl: http://blog.udacity.com/2013/11/sebastian-thrun-launching-our-data.html
 source: blog.udacity.com
 categories: linkpost
+tag: post
 ---

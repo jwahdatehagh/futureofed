@@ -23,14 +23,8 @@
         <link rel="stylesheet" href="{{ site.baseurl}}/css/syntax.css">
         {% endcomment %}
 
-        {% comment %}
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="{{ site.baseurl}}/assets/css/main.css">
-        {% endcomment %}
-
-        <!-- Less CSS -->
-        <link rel="stylesheet/less" type="text/css" href="{{ site.baseurl }}/assets/less/styles.less" />
-        <script src="{{ site.baseurl }}/assets/lessjs/less-v-1-5-0.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="{{ site.baseurl}}/assets/css/min/styles.css">
 
     </head>
     <body>
@@ -50,13 +44,14 @@
 
         <div class="footer">
             <nav class="cl-effect-4">
+                <a href="{{ site.baseurl }}/latest/" class="more">latest</a>
+                <a href="{{ site.baseurl }}/deep-dives/" class="more">deep dives</a>
                 <a href="{{ site.baseurl }}/archive/" class="more">archive</a>
                 <a href="{{ site.baseurl }}/about/" class="more">about</a>
             </nav>
             <a href="https://plus.google.com/115014506543595278511" rel="publisher" style="display:none;">Google+</a>
         </div>
       </div>
-
 
     <script>
         DateString = function () {

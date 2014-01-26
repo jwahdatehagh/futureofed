@@ -6,4 +6,5 @@ date:   2013-12-04 01:00:00
 refurl: http://blogs.the-american-interest.com/wrm/2013/12/03/private-sector-warming-to-moocs/
 source: the-american-interest.com
 categories: linkpost
+tag: post
 ---

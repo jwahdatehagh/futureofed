@@ -6,4 +6,5 @@ date:   2013-11-22 02:00:00
 refurl: http://www.inc.com/issie-lapowsky/7-ways-tech-changes-education.html
 source: inc.com
 categories: linkpost
+tag: post
 ---
