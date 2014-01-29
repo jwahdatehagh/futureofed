@@ -20,25 +20,25 @@ title: Future Of Education
 
           {% for post in site.tags.post limit:5 %}
               {% if post.categories contains 'posts' %}
-                  <li>
+                  <li itemscope itemtype ="http://schema.org/Article">
                     <a href="{{ site.baseurl }}{{ post.url }}">
-                      <span class="title" style="color:white;">{{ post.title }}</span> - 
-                      {{ post.excerpt }}
+                      <span class="title" style="color:white;" itemprop="name">{{ post.title }}</span> - <span>
+                      {{ post.excerpt }}</span>
                     </a>
                     <p class="meta">
-                      <span class="date">{{ post.date | date: "%-d %b" }}</span>
+                      <span class="date" itemprop="datePublished">{{ post.date | date: "%-d %b" }}</span>
                     </p>                     
                   </li>
               {% endif %}
               {% unless post.categories contains 'posts' %}
-                  <li>
+                  <li itemscope itemtype ="http://schema.org/Article">
                     <a href="{{ post.refurl }}" target="_blank">
-                      <span class="title">{{ post.title }}</span> - 
-                      {{ post.subtitle }}
+                      <span class="title" itemprop="name">{{ post.title }}</span> -  <span itemprop="articleSection">
+                      {{ post.subtitle }}</span>
                     </a> 
                     <p class="meta">
-                      <span><a href="{{ post.refurl }}" target="_blank">{{ post.source }}</a></span>
-                      <span class="date">{{ post.date | date: "%-d %b" }}</span>
+                      <span itemprop="url"><a href="{{ post.refurl }}" target="_blank">{{ post.source }}</a></span>
+                      <span class="date" itemprop="datePublished">{{ post.date | date: "%-d %b %y" }}</span>
                     </p>                     
                   </li>
               {% endunless %}
@@ -56,9 +56,9 @@ title: Future Of Education
         <ul class="posts">
           {% for post in site.posts %}
               {% if post.categories contains 'deep-dive' limit:5 %}
-                  <li>
+                  <li itemscope itemtype ="http://schema.org/Article">
                     <a href="{{ site.baseurl }}{{ post.url }}">
-                      <p class="title">{{ post.title }}</p>
+                      <p class="title" itemprop="name">{{ post.title }}</p>
                       <p>{{ post.excerpt }}</p>
                     </a> 
                   </li>
