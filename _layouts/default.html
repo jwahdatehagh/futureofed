@@ -18,13 +18,19 @@
         <!-- Fonts -->
         <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic' rel='stylesheet' type='text/css'>
 
-        {% comment %}
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="{{ site.baseurl}}/css/syntax.css">
-        {% endcomment %}
-
         <!-- Custom CSS -->
         <link rel="stylesheet" href="{{ site.baseurl}}/assets/css/min/styles.css">
+
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-45884737-1', 'futureofeducation.info');
+          ga('send', 'pageview');
+
+        </script>
 
     </head>
     <body>
@@ -77,17 +83,6 @@
         DateString();
     </script>
 
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-45884737-1', 'futureofeducation.info');
-      ga('send', 'pageview');
-
-    </script>
-
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
@@ -105,5 +100,14 @@
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
     })();
     </script>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="{{ site.baseurl}}/assets/js/fitvids.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".post").fitVids();
+      });
+    </script>
+
     </body>
 </html>

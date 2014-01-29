@@ -11,7 +11,9 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 2rem;
 }
 
-a.title { text-decoration: none; }
+a.title { 
+	text-decoration: none; 
+}
 h1.title {
 	width: 100%;
 	color: white;
@@ -58,6 +60,9 @@ ul.posts {
 			&.title {
 				color: white;
 			}
+		}
+		.disabled {
+			opacity: .5;
 		}
 	}
 
@@ -245,7 +250,8 @@ a.more {
 		width: 100%;
 		margin-right: 0px;
 	}
-	a.title { text-decoration: none; 
+	a.title { 
+		text-decoration: none; 
 		text-shadow: 3px 3px 0px rgba(250, 250, 250, 0);
 
 		.title::before {
