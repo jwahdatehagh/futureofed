@@ -6,4 +6,5 @@ date:   2014-01-23 01:00:00
 refurl: http://www.forbes.com/sites/pascalemmanuelgobry/2014/01/22/the-future-of-education-internet-one-laptop-per-child-ted-sugata-mitra-montessori/
 source: forbes.com
 categories: linkpost
+tag: post
 ---

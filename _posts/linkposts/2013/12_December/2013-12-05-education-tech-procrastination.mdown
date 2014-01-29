@@ -6,4 +6,5 @@ date:   2013-12-05 01:00:00
 refurl: http://bostonherald.com/business/business_markets/2013/12/technology_both_aids_studying_and_abets_procrastination
 source: bostonherald.com
 categories: linkpost
+tag: post
 ---

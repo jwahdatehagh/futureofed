@@ -6,4 +6,5 @@ date:   2013-12-18 02:00:00
 refurl: http://www.dnaindia.com/analysis/column-education-will-be-hyper-personalised-1936623
 source: dnaindia.com
 categories: linkpost
+tag: post
 ---

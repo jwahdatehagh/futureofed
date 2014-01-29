@@ -6,4 +6,5 @@ date:   2014-01-19 01:00:00
 refurl: http://www.arabianbusiness.com/the-future-of-education-online-self-learning-tools-534940.html
 source: arabianbusiness.com
 categories: linkpost
+tag: post
 ---

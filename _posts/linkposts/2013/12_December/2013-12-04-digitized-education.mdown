@@ -6,4 +6,5 @@ date:   2013-12-04 02:00:00
 refurl: http://www.nlnewsnow.com/News/Local/2013-12-04/article-3529731/Digitized-education%0D%0A/1
 source: nlnewsnow.com
 categories: linkpost
+tag: post
 ---

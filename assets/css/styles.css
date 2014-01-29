@@ -22,7 +22,6 @@ nav,
 section,
 summary {
   display: block;
-  animation: test 2s infinite;
 }
 audio,
 canvas,
@@ -1276,6 +1275,10 @@ ul.posts a p {
 ul.linkposts a p.title,
 ul.posts a p.title {
   color: white;
+}
+ul.linkposts a .disabled,
+ul.posts a .disabled {
+  opacity: .5;
 }
 ul.linkposts p.meta,
 ul.posts p.meta {

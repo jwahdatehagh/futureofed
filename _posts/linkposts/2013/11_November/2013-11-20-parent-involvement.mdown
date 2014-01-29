@@ -6,4 +6,5 @@ date:   2013-11-20 02:00:00
 refurl: http://www.huffingtonpost.com/miro-walker/post_6223_b_4309013.html
 source: huffingtonpost.com
 categories: linkpost
+tag: post
 ---

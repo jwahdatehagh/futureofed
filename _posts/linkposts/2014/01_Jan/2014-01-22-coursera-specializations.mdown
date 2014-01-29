@@ -6,4 +6,5 @@ date:   2014-01-22 01:00:00
 refurl: https://www.coursera.org/specializations
 source: coursera.org
 categories: linkpost
+tag: post
 ---

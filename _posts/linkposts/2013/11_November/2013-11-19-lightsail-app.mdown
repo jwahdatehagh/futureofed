@@ -6,4 +6,5 @@ date:   2013-11-19 01:00:00
 refurl: http://blogs.wsj.com/venturecapital/2013/11/18/lightsail-education-raises-3-5m-to-ensure-the-bookworms-are-our-future/
 source: wsj.com
 categories: linkpost
+tag: post
 ---

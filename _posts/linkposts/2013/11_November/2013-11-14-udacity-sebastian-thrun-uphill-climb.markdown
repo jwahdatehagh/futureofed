@@ -6,4 +6,5 @@ date:   2013-11-14 02:00:00
 refurl: http://www.fastcompany.com/3021473/udacity-sebastian-thrun-uphill-climb
 source: fastcompany.com
 categories: linkpost
+tag: post
 ---

@@ -6,4 +6,5 @@ date:   2013-10-15 01:00:00
 refurl: http://www.wired.com/business/2013/10/free-thinkers/
 source: wired.com
 categories: linkpost
+tag: post
 ---
