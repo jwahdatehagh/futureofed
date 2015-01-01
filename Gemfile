@@ -1,1 +1,1 @@
-/gem 'jekyll-timeago'
+gem 'jekyll-timeago'
