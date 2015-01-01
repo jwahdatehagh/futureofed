@@ -1,6 +1,6 @@
 GEM
   specs:
-    jekyll-timeago (0.4.2)
+    jekyll-timeago (0.8.2)
 
 PLATFORMS
   ruby
